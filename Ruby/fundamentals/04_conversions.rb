@@ -1,0 +1,10 @@
+#Cambiar de tipos
+num_one = 2
+num_two = '5'
+
+puts num_one.to_s + num_two # "25"
+puts num_one + num_two.to_i # "7"
+puts num_one + num_two.to_f # "7" float
+
+#puts aplica  to s a las variables que imprime
+puts num_one
